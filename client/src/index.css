@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Add these styles to your CSS file */
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #222;
+}
+/* Update styles for light mode navbar */
+.light-mode .navbar {
+  background-color: #fff;
+  color: #222;
+}
+
+/* Update styles for light mode grid theme */
+.light-mode .ag-theme-alpine {
+  background-color: #fff;
+  color: #222;
+}
+/* Define custom CSS for mobile devices */
+@media (max-width: 768px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* .dark-mode {
+  transition: 1000ms ease-in-out;
+  transform: scale(0);
+}
+
+.dark-mode.active {
+  transform: scale(1);
+} */
